@@ -1,0 +1,141 @@
+* {
+    font-family: 'Laila', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+head {
+
+    background-color: #FFCBA4;
+
+}
+.color{
+background-color: red!important;}
+
+body {
+    display: grid;
+    grid-area: body ;
+    background-color: #82CAFF;
+    grid-template-columns:1fr; 
+    grid-template-rows: 1fr;
+    min-height: 100vh;
+    grid-template-areas:  
+    "header "
+    "article"
+    "div "
+    "main"
+    "formv"
+    "footer" ;
+    
+}
+
+#titulo { 
+    border-bottom: double; 
+    border-width: 2px;
+    border-bottom-width: 4px;
+    color:#8BFEA8;
+    background-color: #FFCBA4; 
+    text-align: center;
+    padding: 10px;
+    padding-right: 1px;
+
+}
+
+h1 { 
+    color: #9DC209 ; 
+    
+}
+h2 {
+    padding: 20px;
+
+}
+
+body article {
+    border-style: double;
+    border-color: #8BFEA8;
+    border-width: 3px;
+    border-radius: 4px;
+    background-color: #FFC4FF; 
+    border-spacing: 20px;
+    margin: 20px;
+    text-align: left;
+    padding-left: 5px;
+    display: flex;
+    flex-direction: left;
+    justify-content: left;
+    align-items: center;
+    width: 600px;
+}
+
+#listado-acceso-rapido {
+    padding-left: 25px;
+    list-style-type: none ;
+    display: flex;
+    flex-direction:row;
+    width: 1200px;
+    flex-wrap: 750px;
+    height: 100px;
+    justify-content: space-evenly;
+    align-items: center;
+    column-gap:10px;
+
+}
+
+p.texto {
+    color: #6CC417;
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    
+}
+
+main p {
+    color: #6CC417;
+    border-style:dotted ;
+    border-color: black;
+    border-width: 1.5px;
+    border-top: 0ch;
+    border-left: 0ch;
+    text-align: left;
+    padding-left: 5px;
+    padding-right: 2px;
+    padding-bottom: 2px;
+    margin: 5px;
+}
+
+#imagen-abajo /* "section" */ {
+    opacity: 55%;
+
+
+}
+
+form {
+    margin: 15px;
+}
+
+
+
+/* a partir de aca es el style de areas.html */
+
+.contenedor-areas {
+    display: grid;
+}
+
+footer {
+    bottom: 0;
+    margin:  100px;
+}
+
+@media(min-width: 600px){
+    .cuerpo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    "header header"
+    "article div "
+    "main  div "
+    "form  div "
+    "footer footer " ;
+    }
+}

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Laila:wght@500&display=swap" rel="stylesheet">
+    <title>Vida minutero</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="/estilos.css">
+</head>
+
+<body class="cuerpo">   
+    <h1 class="titulo" id="titulo">Enterate en un minuto</h1>
+    <header>
+        <h2>
+            Noticias flash
+        </h2>
+    </header>  
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+        <a class="navbar-brand" href="#">Inicio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./Locales.html">Locales</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./Hoy.html"> Hoy</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Mas
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="./Contacto.html"> Contacto</a></li>
+                <li><a class="dropdown-item" href="./Destacados.html"> Destacados de la semana</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#"> Informanos</a></li>
+                </ul>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled"> </a> <!-- no hace falta link de vinculo --> 
+            </li>
+            </ul>
+            <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            
+            </form>
+        </div>
+        </div>
+    </nav> 
+
+    <article>
+        <p class="texto" id="introduccion"> 
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ab amet praesentium consequuntur
+            consequatur a magni nisi minus. Dolor, asperiores obcaecati! Nesciunt hic saepe assumenda ad earum
+            tenetur cumque consectetur fuga iure. Id dignissimos excepturi minus sit architecto omnis illo non
+            quia repellendus consequuntur! Quod quasi hic eaque optio ipsum quos totam enim atque cupiditate 
+            velit, quidem, minus laudantium adipisci veritatis maxime eveniet architecto quas dolorum assumenda.
+            Ab quaerat quod atque nemo qui. Veniam provident veritatis magni quidem nobis quaerat vero! 
+            Perferendis incidunt vero dolorem eligendi, fugit sed itaque ab molestias sunt sint sit vitae, a 
+            sequi quas autem alias.
+        </p>
+    </article>
+    <div>
+        <img src="../img/descarga.png" alt="imagen-article1">
+        <img src="../img/images.png" alt="imagen-article2">
+    </div>
+
+    <main>
+        <p id="descripcion.consigna">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore aperiam nisi, aspernatur, id suscipit quasi eos impedit iure incidunt facere sapiente nobis quam aut quia dicta quisquam maxime eaque cupiditate.
+        </p>
+<!-- aca va la parte principal de la pagina, el contenido con imagenes y contando un poco de que se trata-->
+    </main>
+
+
+
+<section class="formularios">
+<form>
+    <label for="Nombre">Nombre</label>
+    <input id="Nombre" placeholder="Roberto">
+    
+    <tr>
+
+    <label for="Apellido">Apellido</label>
+    <input for="Apellido" id="Apellido" placeholder="Ramirez">
+
+    </tr>
+
+    <br> <br>    
+    <label for="Edad">Edad</label>
+    <input type="number" id="Edad" placeholder="25">
+    <br><br>
+
+    <!--hola como estas soy un comentario--> 
+
+    Comentenos su rutina diaria aqui...
+    <div> 
+        <textarea cols="30" rows="10" placeholder="Me levanto a las ... Desayuno o no... Almuerzo... Merienda... Cena... Duermo a las..."> </textarea>
+    </div> 
+    <!--Arreglar el place holder de text area que no se visualiza-->
+    <input type="submit" value="Enviar">
+    
+</form>
+</section>
+
+
+<section id="imagen-abajo">
+        <hr>
+
+        <iframe src="https://www.youtube.com/watch?v=GZEwdVV5DTY" frameborder="0" style="height: 480px; width: 680px;" alt="aca anda"></iframe>
+
+        </hr>
+</section>
+
+<footer class="PieDePagina">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../pages/index.html">Inicio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./Locales.html">Locales</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./Contacto.html">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./Hoy.html">Hoy</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled">Derechos reservados</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <a href="">Copyright</a> <!--Agregar pagina para linkear-->
+
+
+
+
+
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+</body>
+
+
+
+
+
+</html>
+
