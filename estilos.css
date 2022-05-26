@@ -18,6 +18,19 @@ body {
   "footer" ;
 }
 
+.navbar-brand:hover {
+
+  background: yellowgreen ;
+
+}
+
+button:active {
+
+background: rgb(128, 0, 247);
+
+}
+
+
 @media(min-width: 600px){
   .cuerpo{
     background-color: #82CAFF;
