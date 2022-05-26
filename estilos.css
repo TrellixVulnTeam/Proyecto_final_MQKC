@@ -1,4 +1,35 @@
+
 body {
   background-color: red;
   margin: 0;
-  font-family: 'Laila', sans-serif; }
+  font-family: 'Laila', sans-serif; 
+  display: grid;
+  grid-area: body ;
+  ;
+  grid-template-columns:1fr; 
+  grid-template-rows: 1fr;
+  min-height: 100vh;
+  grid-template-areas:  
+  "header "
+  "article"
+  "div "
+  "main"
+  "formv"
+  "footer" ;
+}
+
+@media(min-width: 600px){
+  .cuerpo{
+    background-color: #82CAFF;
+  display: grid;
+  grid-row: 1fr 1fr 1fr;
+  grid-template-rows: min-content;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+  "header header  "
+  "article div "
+  "main  div "
+  "form div "
+  "footer footer" ;
+  }
+}
